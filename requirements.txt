@@ -1,0 +1,6 @@
+keras
+tensorflow-gpu
+keras-self-attention
+h5py
+obspy
+pandas
