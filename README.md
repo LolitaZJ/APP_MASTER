@@ -8,7 +8,7 @@ Version 1.0.0
 
 ### This repository contains the codes to train and test the network proposed in:             
 
-`Ji, Zhang, Li, Z., & Zhang, j. (2022). Simultaneous Seismic Phase Picking and Polarity Determination with an Attention-based Neural Network (submitted).`
+`Zhang J, Li Z, Zhang J. Simultaneous Seismic Phase Picking and Polarity Determination with an Attention‐Based Neural Network [J]. Seismological Research Letters, 2023.`
       
 ------------------------------------------- 
 ### Installation:
