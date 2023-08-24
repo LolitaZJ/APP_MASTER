@@ -539,7 +539,7 @@ def main(args):
             validation_generator_test=DataGenerator_PP1_S_test(f44,len(f44['Y']),gaus,batch_size=args.batch_size, classes=args.clas)  
             pred_pick,pre_polatiry=model.predict_generator(validation_generator_test,verbose=1)
         if args.save_result:    
-            np.savez(args.pre_result+'%s_%s'%(args.exam,args.model_name),pred_pick=pred_pick,pre_polatiry=pre_polatiry)
+            np.savez(args.output_dir+'%s_%s'%(args.exam,args.model_name),pred_pick=pred_pick,pre_polatiry=pre_polatiry)
     
     else:
         print("mode should be: train, test, or predict")
